@@ -40,7 +40,7 @@ def main():
 
     domain = st.text_input('Enter the domain for the email address, e.g., @lesechosleparisien.fr')
     full_name = st.text_input('Enter the full name of the user, e.g., Yassine Jemlaoui')
-    pattern = st.text_input('Enter the pattern for the email, e.g., {first}.{last}@...')
+    pattern = st.text_input('Enter the pattern for the email, e.g., {first}.{last}...')
 
     if st.button('Generate Email'):
         if domain and full_name and pattern:
